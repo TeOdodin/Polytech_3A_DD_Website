@@ -6,17 +6,19 @@
         <link rel="stylesheet" type="text/css" href="contents/css/article.css">
         <script type="text/javascript" src="contents/js/libraries/jQuery_3.4.1.js"></script>
         <script type="text/javascript" src="contents/js/header.js" defer></script>
+        <link rel="icon" type="image/png" href="resources/images/recyclage_logo.png" />
+        <title>EcoNantes</title>
     </head>
     <body>
         <header>
             <nav>
-                <a>
+                <a href="#">
                     Accueil
                 </a>
-                <a>
+                <a href="#pointscollecte">
                     Points de collecte
                 </a>
-                <a>
+                <a href="#sources">
                     Sources
                 </a>
             </nav>
@@ -33,16 +35,16 @@
                     <img />
                 </div>
             </article>
-            <article>
-                <h3></h3>
+            <article id="pointscollecte">
+                <h3>Points de collecte</h3>
                 <div>
                     <p>
                     </p>
                     <img />
                 </div>
             </article>
-            <article>
-                <h3></h3>
+            <article id="sources">
+                <h3>Nos Sources</h3>
                 <div>
                     <p>
                     </p>
@@ -50,5 +52,8 @@
                 </div>
             </article>
         </section>
+        <footer>
+            <a href="contents/php/mentionslegales.php">mentions légales</a> &copy; Polytech Nantes - INFO 3A - DAUDIN Théo, LAPORTE Nolwenn, PINCON Julien, ROUSSEL Armand - 2020
+        </footer>
     </body>
 </html>
